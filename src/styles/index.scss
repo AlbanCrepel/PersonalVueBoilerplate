@@ -1,0 +1,27 @@
+@import "vars";
+@import "fonts";
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html, body, #app {
+  height:100%;
+}
+
+#app {
+  font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:$text-dark;
+}
+
+ul{
+  list-style-type:none;
+}
+
+a, a:active, a:visited, a:focus{
+  text-decoration: none;
+  color:inherit;
+}
